@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: Home
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -25,14 +25,11 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor,
- [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific
-markup examples.
-
-## Ramblings of a Hypocritical Environmentalist Technophile
+# Ramblings of a Hypocritical Environmentalist Technophile
 
 <p>Eventually this will become a blog for all kinds of topics, including UAVs,
 Tech, Environment etc..</p>
+## To-Do
+* At the moment, this is the same theme as Richard's blog, which needs changing
+, as I would like the colours to be different, however I somehow managed to
+ break things when attempting to modify the theme...
