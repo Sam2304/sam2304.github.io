@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-tagline: Supporting tagline
+subtitle: Ramblings of a Hypocritical Environmentalist Technophile
 ---
 {% include JB/setup %}
 
