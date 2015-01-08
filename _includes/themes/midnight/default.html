@@ -32,11 +32,15 @@
 
     <div id="header">
       <nav>
-        <li class="title"><h1><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1></li>
-        {% assign pages_list = site.pages %}
-        {% assign group = 'navigation' %}
-        {% include JB/pages_list %}
-      </nav>
+        <li class="title"><h3><a href="{{ HOME_PATH }}">{{ site.title }}</a></h3></li>
+	<li class="title"><h3><a href="{{ HOME_PATH }}">/projects.html</a></h3></li>
+	<li class="title"><h3><a href="{{ HOME_PATH }}">/projects.html</a></h3></li>
+
+	<!--  { % assign pages_list = site.pages % }
+        { % assign group = 'navigation' % }
+	{ % include JB/pages_list % } -->
+
+	</nav>
     </div>
 
     <div class="wrapper">
@@ -46,7 +50,7 @@
       </div>
 
       <footer>
-        <p>&copy; {{ site.author.name }} 2012
+        <p>&copy; {{ site.author.name }} 2015
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
         </p>
       </footer>
